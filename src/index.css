@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://services.meteored.com/img/article/efectos-domino-creados-por-los-oceanos-que-ya-cambian-el-clima-global-319551-1_768.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
