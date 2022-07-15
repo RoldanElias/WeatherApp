@@ -11,3 +11,27 @@
     border-radius: 8px;
     text-align: center;
 }
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    .container {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    .container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+}

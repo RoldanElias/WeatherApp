@@ -30,3 +30,29 @@
     font-size: 38px;
     font-weight: bold;
 }
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+    .mainInfo {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+    .mainInfo {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mainInfo {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: auto;
+    }
+}
